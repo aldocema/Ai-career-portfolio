@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 @author: aldocema
-serie de taylor con las formulas de 4.1 y4.2 del libro de Chapra
-usar sympy, sympy.diff(funcion,respecto),sympy.integrate(funcion,respecto), funcion.subs(variable,valor)
+Taylor series 4.1 & 4.2 from chapra's book
+use sympy, sympy.diff(funcion,respecto),sympy.integrate(funcion,respecto), funcion.subs(variable,valor)
 """
 
 import numpy as np
