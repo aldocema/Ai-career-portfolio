@@ -50,6 +50,7 @@ x = np.arange(x0, x2 + 4, 0.1)
 y = np.log(x)
 
 plt.plot(x, y)
+plt.show()
 x_points = np.array([x0, x1, x2])
 y_points = np.array([f_x0, f_x1, f_x2])
 

@@ -35,6 +35,7 @@ def evaluate(x1, x0, x):
     plt.xlim(x0 - 0.5, xx + 0.5)
     plt.title('Interpolation of ln(x) Function')
     plt.grid()
+    plt.show()
     return [xx, f1x]
 
 evaluate(6, 1, 2)

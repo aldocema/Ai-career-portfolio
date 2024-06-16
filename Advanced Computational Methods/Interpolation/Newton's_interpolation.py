@@ -51,6 +51,7 @@ def inter_newton(x, y, pred):
     y_vals = lam_x(x_vals)
     plt.plot(x_vals, y_vals)
     plt.grid()
+    plt.show()
     actual_value = np.log(pred)
     error = 100 * (actual_value - polynomial.subs(X, pred)) / actual_value
     print('Error %:', error)
